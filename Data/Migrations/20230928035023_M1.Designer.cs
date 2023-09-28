@@ -12,7 +12,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace CommunityApp.Data.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20230926212323_M1")]
+    [Migration("20230928035023_M1")]
     partial class M1
     {
         /// <inheritdoc />
@@ -61,13 +61,13 @@ namespace CommunityApp.Data.Migrations
                         {
                             CityId = 2,
                             CityName = "Prince George",
-                            Population = 123634,
+                            Population = 1624342,
                             ProvinceCode = "BC"
                         },
                         new
                         {
                             CityId = 3,
-                            CityName = "Victora",
+                            CityName = "Victoria",
                             Population = 1624342,
                             ProvinceCode = "BC"
                         },

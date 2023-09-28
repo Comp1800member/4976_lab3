@@ -58,13 +58,13 @@ namespace CommunityApp.Data.Migrations
                         {
                             CityId = 2,
                             CityName = "Prince George",
-                            Population = 123634,
+                            Population = 1624342,
                             ProvinceCode = "BC"
                         },
                         new
                         {
                             CityId = 3,
-                            CityName = "Victora",
+                            CityName = "Victoria",
                             Population = 1624342,
                             ProvinceCode = "BC"
                         },
